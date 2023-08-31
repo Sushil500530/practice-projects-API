@@ -22,11 +22,11 @@ const loadContainer = async(some)=>{
             <div class="card-actions justify-between ">
                 <div>
                  <h2 class="card-title">${element?.name}</h2> 
-                 <p class = "flex"><img src="./Frame.png" alt="photo" />${element?.published_in}</p>
+                 <p class = "flex"><img src="./img/Frame.png" alt="photo" />${element?.published_in}</p>
                 </div>
                 <div>
                 <button onclick = modalShow('${element.id}');my_modal.showModal() class = "w-10 h-10 rounded-full pl-3 bg-[#FEF7F7] hover:ring-2 hover:ring-offset-4">
-                  <img src="./Frame.svg" alt="photo" />
+                  <img src="./img/Frame.svg" alt="photo" />
                 </button>
                 </div>
             </div>
@@ -94,7 +94,7 @@ const modalShowContainer = (data) =>{
         </div>
      </div>
      <div class="modal-action absolute right-0 top-0 rounded-full p-5 ">
-        <button class="btn w-11 h-11 bg-red-500 rounded-full relative p-0 -top-[68px] left-[37px]"><img src ="./Frame (1).png" alt="photo" class = " w-full"/></button>
+        <button class="btn w-11 h-11 bg-red-500 rounded-full relative p-0 -top-[68px] left-[37px]"><img src ="./img/Frame (1).png" alt="photo" class = " w-full"/></button>
     </div>
                 
     </div>
